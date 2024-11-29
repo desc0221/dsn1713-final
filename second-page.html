@@ -4,8 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Books</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a onclick="location.href='index.html'" class="navbar-brand" href="#">goodreads</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">My Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Browse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Community</a>
+              </li>
+        
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+    <main>
+<section class="currently-wrapper pb-5" >
+      <div>    
+        <h1 class="text-center pt-5 pb-5">Currently Reading</h1>
+        <div class="container">
+          <div class="row justify-content-center grid-4 mx-5">
+
+            <div class="col-lg-3 d-flex pb-4 book-list">
+                <img class="circle-img col-sm-6 mx-3 " src="images/This-could-be-us.jpg" alt="" width="130" height="170">
+                <h6 class="col-sm-6 pt-5">THIS COULD BE US -Kennedy Ryan</h6>
+            </div>
+
+            <div class="col-lg-3 d-flex pb-4">
+                <img class="circle-img col-sm-6 mx-3" src="images/do-not-disturb.jpg" alt="" width="190" height="170">
+                <h6 class="col-sm-6 pt-5">DO NOT DISTURB -Freida McFadden</h6>
+            </div>
+
+            <div class="col-lg-3 d-flex pb-4">
+                <img class="circle-img col-sm-6 mx-3" src="images/Maybe-in-another -life.jpg" alt="" width="110" height="190">
+                <h6 class=" col-sm-6 pt-5">MAYBE IN ANOTHER LIFE -Taylor Jerkins Reid</h6>
+            </div>
+      </div>
+</section>
+
+<section>
+   <div class="want-to-read-color">
+<h1 class="text-center pt-5 pb-4">Want to Read</h1> 
+   </div>
+<p class="text-center mx-4 pt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore incididunt ut labore et dolore</p>
+    
+
+<div class="d-flex">
+    <div class="col-lg-4">
+        <img class="want-img col-sm-6 mx-2" src="images/the-neighbor-favor.jpg" alt="" width="130" height="190">
+    </div>
+
+    <div class="col-lg-4">
+        <img class="middle-img col-sm-6 mx-2" src="images/things-we-never-got-over.jpg" alt="" width="130" height="190">
+    </div>
+
+    <div class="col-lg-4">
+        <img class="want-img col-sm-6 mx-2" src="images/I-hope-this-find's-you-well.jpg" alt="" width="130" height="190">
+    </div>
+</div>
+</section>
+
+<section class="read-wrapper pb-5" >
+    <div>    
+      <h1 class="text-center pt-5 pb-5">Read</h1>
+      <div class="container">
+        <div class="row justify-content-center grid-4 mx-4">
+
+          <div class="col-lg-3 d-flex pb-4">
+              <img class="circle-img col-sm-6 mx-3" src="images/Just-like-the-other-girls.jpg" alt="" width="150" height="170">
+              <div class="col-sm-6 pt-5">
+              <h6 class="fw-semibold">JUST LIKE THE OTHER GIRLS</h6>
+              <p>"Lorem ipsum do lor sit amet, con" </p>
+             </div>
+          </div>
+
+          <div class="col-lg-3 d-flex pb-4">
+              <img class="circle-img col-sm-6 mx-3" src="images/There-There.jpg" alt="" width="155" height="170">
+              <div class="col-sm-6 pt-5">
+                <h6 class="fw-semibold">THERE THERE</h6>
+                <p>"Lorem ipsum do lor sit amet, con"</p>
+               </div>
+          </div>
+
+          <div class="col-lg-3 d-flex pb-4">
+              <img class="circle-img col-sm-6 mx-3" src="images/crying-in-h-mart.jpg" alt="" width="120" height="190">
+              <div class="col-sm-6 pt-5">
+                <h6 class="fw-semibold">CRYING IN H MART</h6>
+                <p>"Lorem ipsum do lor sit amet, con"</p>
+               </div>
+          </div>
+
+          <div class="col-lg-3 d-flex pb-4">
+            <img class="circle-img col-sm-6 mx-3" src="images/yellowface.jpg" alt="" width="120" height="190">
+            <div class="col-sm-6 pt-5">
+              <h6 class="fw-semibold">YELLOWFACE</h6>
+              <p>"Lorem ipsum do lor sit amet, con"</p>
+             </div>
+        </div>
+    </div>
+</section>
+
+
+    </main>
 </body>
 </html>

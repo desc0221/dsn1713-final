@@ -11859,6 +11859,56 @@ body {
 
 .img-sm-1 {
   max-width: 150px;
+  margin-top: -120px;
+  margin-left: 25px;
+}
+
+.recommendations-wrapper {
+  background: linear-gradient(to top, #FFF2E6 20%, white 100%);
+}
+
+.profile-images {
+  border: solid 5px #42176D;
+  height: 150px;
+  width: 150px;
+}
+
+.updates-wrapper {
+  background-color: #F4EEFB;
+}
+
+h4, .h4 {
+  color: #42176D;
+}
+
+h6, .h6 {
+  color: #42176D;
+}
+
+h1, .h1 {
+  color: #214B3C;
+  font-weight: bolder;
+}
+
+.home-wrapper {
+  background: linear-gradient(to top, #E0EC9E, #FFF2E6 50%);
+}
+
+.star::after {
+  font-family: "Material Icons Outlined";
+  content: "star star star";
+}
+
+.currently-wrapper {
+  background: linear-gradient(to top, #E0EC9E, #FFF2E6 50%);
+}
+
+.want-to-read-color {
+  background-color: #dbcaef;
+}
+
+.read-wrapper {
+  background: linear-gradient(to top, #FFF2E6 20%, white 100%);
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -9,6 +9,8 @@ $yellow:  #FFF2E6;
 $green:   #559C82;
 $teal:    #E0EC9E;
 $orange:  #44280E;
+$purple: #42176D;
+$forest: #214B3C;
 
 .btn{
     background-color: $green;
@@ -19,10 +21,60 @@ $orange:  #44280E;
 
 .img-sm{
     max-width: 250px;
+
 }
 
 .img-sm-1{
     max-width: 150px;
+    margin-top: -120px;
+    margin-left: 25px;
+}
+
+.recommendations-wrapper {
+    background: linear-gradient(to top, $yellow 20%, white 100%);
+}
+
+.profile-images {
+    border: solid 5px $purple;
+    height: 150px;
+    width: 150px;
+}
+
+.updates-wrapper{
+    background-color: #F4EEFB;
+}
+
+h4{
+    color: $purple;
+}
+h6{
+    color: $purple;
+}
+h1{
+    color: $forest;
+    font-weight: bolder;
+}
+
+.home-wrapper{
+    background: linear-gradient(to top, $teal, $yellow 50%);
+}
+
+.star::after{
+  font-family: "Material Icons Outlined";
+  content: 'star star star'
 }
 
 
+// Section two MY BOOKS PAGE
+
+.currently-wrapper{
+    background: linear-gradient(to top, $teal, $yellow 50%);
+}
+
+.want-to-read-color{
+    background-color: #dbcaef;
+}
+
+.read-wrapper{
+    background: linear-gradient(to top, $yellow 20%, white 100%);
+}
