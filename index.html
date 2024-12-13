@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:ital@0;1&display=swap" rel="stylesheet">
@@ -16,20 +17,17 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">goodreads </a>
+      <a onclick="location.href='index.html'" class="navbar-brand" href="#">goodreads </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">My Books</a>
+            <a onclick="location.href='second-page.html'" class="nav-link active" aria-current="page" href="#">My Books</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Browse</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Community</a>
+            <a onclick="location.href='thrid-page.html'" class="nav-link" href="#">My Community</a>
           </li>
     
         </ul>
@@ -55,7 +53,7 @@
     
         <div class="col-6 discover-text"> 
           <h1>Discover</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem?</p>
+          <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem?</p>
           <button class="btn btn-primary">More</button>
         </div>
       </div>
@@ -96,7 +94,11 @@
             </blockquote>
           </figure>
         </div>
+        <button onclick="location.href='thrid-page.html'" class="btn btn-primary">More</button>
       </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </Section>
@@ -108,26 +110,23 @@
           <div class="row justify-content-center grid-4 mx-5">
 
             <div class="col-lg-3 d-flex pb-4 book-list">
-                <img class="circle-img col-sm-6 mx-2 book-img" src="images/This-could-be-us.jpg" alt="" width="130" height="170">
+                <img class="circle-img col-sm-6 mx-2 book-img img-fluid" src="images/This-could-be-us.jpg" alt="" width="150" height="190">
                 <h4 class="col-sm-6 book-title">KENNEDY RYAN</h4>
             </div>
 
             <div class="col-lg-3 d-flex pb-4">
-                <img class="circle-img col-sm-6 mx-2" src="images/The-alchemist.jpg" alt="" width="130" height="170">
+                <img class="circle-img col-sm-6 mx-2 img-fluid" src="images/The-alchemist.jpg" alt="" width="150" height="190">
                 <h4 class="col-sm-6">PAULO COELHO</h4>
             </div>
 
             <div class="col-lg-3 d-flex pb-4">
-                <img class="circle-img col-sm-6 mx-2" src="images/the-silent-patient.jpg" alt="" width="150" height="190">
+                <img class="circle-img col-sm-6 mx-2 img-fluid" src="images/the-silent-patient.jpg" alt="" width="150" height="190">
                 <h4 class=" col-sm-6">ALEX MICHAELIDES</h4>
             </div>
 
             <div class="col-lg-3 d-flex pb-4">
-                <img class="circle-img col-sm-6 mx-2" src="images/the-power-of-moments.jpg" alt="" width="150" height="190">
+                <img class="circle-img col-sm-6 mx-2 img-fluid power" src="images/the-power-of-moments.jpg" alt="" width="150" height="190">
                 <h4 class="col-sm-6">CHIP & DAN HEATH</h4>
-            </div>
-            <button class="btn btn-primary">More</button>
-          </div>
         </div>
         
 

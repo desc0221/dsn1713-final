@@ -78,3 +78,33 @@ h1{
 .read-wrapper{
     background: linear-gradient(to top, $yellow 20%, white 100%);
 }
+
+// Section discussions COMMUNITY PAGE
+.solid{
+    background-color: white;
+    margin-left: -20px;
+}
+
+// Media queries
+
+@media(min-width: 993px){
+    .img-sm-1{
+       margin-top: 30px;
+       margin-left: auto;
+    }
+}
+.btn{
+    padding:auto;
+    margin-top: auto;
+
+}
+.home-wrapper{
+    padding: 50px;
+}
+.home-text{
+    margin-right: 50px;
+
+}
+.btn-primary{
+    margin-left: auto;
+}
